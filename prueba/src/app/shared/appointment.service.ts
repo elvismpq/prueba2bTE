@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Appointment } from '../shared/Appointment';
 import { AngularFireDatabase, AngularFireList, AngularFireObject } from '@angular/fire/database';
+import { splitAtPeriod } from '@angular/compiler/src/util';
 
 @Injectable({
   providedIn: 'root'
@@ -17,7 +18,8 @@ export class AppointmentService {
     return this.bookingListRef.push({
       name: apt.name,
       email: apt.email,
-      mobile: apt.mobile
+      mobile: apt.mobile,
+      professor: apt.professor
     })
   }
 
@@ -38,7 +40,9 @@ export class AppointmentService {
     return this.bookingRef.update({
       name: apt.name,
       email: apt.email,
-      mobile: apt.mobile
+      mobile: apt.mobile,
+      professor: apt.professor
+
     })
   }
 
