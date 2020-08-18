@@ -23,7 +23,7 @@ export class MakeAppointmentPage implements OnInit {
       name: [''],
       email: [''],
       mobile: [''],
-      professor:['']
+      professor: ['']
     })
   }
 

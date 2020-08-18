@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Editar Registro
+      Editar Informacion
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -10,7 +10,7 @@
   <ion-list lines="full">
     <form [formGroup]="updateBookingForm" (ngSubmit)="updateForm()">
       <ion-item>
-        <ion-label position="floating">Nombre</ion-label>
+        <ion-label position="floating">Estudiante</ion-label>
         <ion-input formControlName="name" type="text" required></ion-input>
       </ion-item>
 
@@ -21,7 +21,7 @@
       </ion-item>
 
       <ion-item>
-        <ion-label position="floating">Calificación</ion-label>
+        <ion-label position="floating">Notas</ion-label>
         <ion-input formControlName="mobile" type="text" required>
         </ion-input>
       </ion-item>
@@ -32,12 +32,12 @@
         </ion-input>
       </ion-item>
 
-
       <ion-row>
         <ion-col>
-          <ion-button type="submit" color="primary" shape="full" expand="block">Update Appointment</ion-button>
+          <ion-button type="submit" color="secondary" shape="full" expand="block">Actualizar Informacion</ion-button>
         </ion-col>
       </ion-row>
     </form>
   </ion-list>
 </ion-content>
+
