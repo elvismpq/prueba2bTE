@@ -1,6 +1,6 @@
 export class Appointment {
     $key: string;
     name: string;
-    email: string
+    email: string;
     mobile: number;
 }
