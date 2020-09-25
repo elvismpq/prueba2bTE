@@ -73,8 +73,10 @@ _Esta parte del código obtiene la lista de estudiantes almacenada en Firebase m
   }
 ```
 <p align="center"> 
- <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura.png" width="300"/> 
+ <img src="https://elvismpq.github.io/prueba2bTE/imagenes/Captura.PNG" width="300"/> 
 </p> 
+
+
 ### Crea un estudiante nuevo
 
 _Esta parte del código llama al metodo para crear un estudiante en `make-appointment.page.ts`._
@@ -94,8 +96,9 @@ formSubmit() {
 }
 ```
 <p align="center"> 
- <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura2.png" width="300"/> 
+ <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura2.PNG" width="300"/> 
 </p> 
+
 ### Actualizar estudiante
 
 _En el constructor de `edit-appointment.page.ts` se recibe de parametro el id para llamar al método que retorna a un estudiante especifico, para que se aplique los cambios en `updateForm()`._
@@ -124,8 +127,10 @@ constructor(
   }
 ```
 <p align="center"> 
- <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura3.png" width="300"/> 
+ <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura3.PNG" width="300"/> 
 </p> 
+
+
 ### Borrar estudiantes
 
 _Esta parte del código permite borrar un estudiante mediante su id en `home.page.ts`._
@@ -138,7 +143,7 @@ deleteBooking(id) {
   }
 ```
 <p align="center"> 
- <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura4.png" width="300"/> 
+ <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura4.PNG" width="300"/> 
 </p> 
 
 ## Autores ✒️
