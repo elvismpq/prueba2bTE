@@ -148,7 +148,7 @@ deleteBooking(id) {
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+_Colaboradores_
 
 * **Aaron Cruz**
 * **Elvis Pérez** 
