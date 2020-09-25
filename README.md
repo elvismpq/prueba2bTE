@@ -96,7 +96,7 @@ formSubmit() {
 }
 ```
 <p align="center"> 
- <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura2.PNG" width="300"/> 
+ <img src="https://elvismpq.github.io/prueba2bTE/imagenes/Captura2.PNG" width="300"/> 
 </p> 
 
 ### Actualizar estudiante
@@ -127,7 +127,7 @@ constructor(
   }
 ```
 <p align="center"> 
- <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura3.PNG" width="300"/> 
+ <img src="https://elvismpq.github.io/prueba2bTE/imagenes/Captura3.PNG" width="300"/> 
 </p> 
 
 
@@ -143,7 +143,7 @@ deleteBooking(id) {
   }
 ```
 <p align="center"> 
- <img src=" https://elvismpq.github.io/prueba2bTE/imagenes/Captura4.PNG" width="300"/> 
+ <img src="https://elvismpq.github.io/prueba2bTE/imagenes/Captura4.PNG" width="300"/> 
 </p> 
 
 ## Autores ✒️
